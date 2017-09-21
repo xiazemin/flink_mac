@@ -62,5 +62,23 @@ Connected to JobManager at Actor\[akka.tcp://flink@localhost:6123/user/jobmanage
 
 09/21/2017 14:24:05    TriggerWindow\(TumblingProcessingTimeWindows\(5000\)
 
-![](/assets/flinktask.png)
+![](/assets/flinktask.png)![](/assets/flink2.png)$nc -l 9000
+
+ lorem ipsum
+
+ipsum ipsum ipsum
+
+bye
+
+$tail -f log/flink-\*-jobmanager-\*.out
+
+ : 1
+
+bye : 1
+
+ipsum : 4
+
+lorem : 1
+
+
 
