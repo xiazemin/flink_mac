@@ -38,5 +38,31 @@ $./bin/start-local.sh
 
 2017-09-21 14:18:51,959 INFO  org.apache.flink.runtime.taskmanager.TaskManager
 
+运行实例：
+
+$nc -l 9000
+
+$./bin/flink run examples/streaming/SocketWindowWordCount.jar --port 9000
+
+Cluster configuration: Standalone cluster with JobManager at localhost/127.0.0.1:6123
+
+Using address localhost:6123 to connect to JobManager.
+
+JobManager web interface address http://localhost:8081
+
+Starting execution of program
+
+Submitting job with JobID: c6295dd2db9235ed251771b15970a009. Waiting for job completion.
+
+Connected to JobManager at Actor\[akka.tcp://flink@localhost:6123/user/jobmanager\#342654186\] with leader session id 00000000-0000-0000-0000-000000000000.
+
+09/21/2017 14:24:05	Job execution switched to status RUNNING.
+
+09/21/2017 14:24:05	Source: Socket Stream -&gt; Flat Map\(1/1\) switched to SCHEDULED
+
+09/21/2017 14:24:05	TriggerWindow\(TumblingProcessingTimeWindows\(5000\)
+
+
+
 
 
