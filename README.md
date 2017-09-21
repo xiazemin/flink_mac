@@ -22,9 +22,13 @@ $ brew install apache-flink
 
 方法二：
 
+$tar -zxvf flink-1.3.2-bin-hadoop26-scala\_2.11.tgz
 
+$cd flink-1.3.2
 
+$./bin/start-local.sh
 
+http://localhost:8081/\#/overview
 
-
+![](/assets/flink.png)
 
