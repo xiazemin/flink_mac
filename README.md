@@ -20,9 +20,11 @@
 $ brew install apache-flink
 ```
 
-```
+方法二：
 
-```
+
+
+
 
 
 
