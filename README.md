@@ -28,7 +28,15 @@ $cd flink-1.3.2
 
 $./bin/start-local.sh
 
-http://localhost:8081/\#/overview
+[http://localhost:8081/\#/overview](http://localhost:8081/#/overview)
 
-![](/assets/flink.png)
+![](/assets/flink.png)$ tail log/flink-\*-jobmanager-\*.log
+
+2017-09-21 14:18:51,954 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - TaskManager has 1 task slot\(s\).
+
+2017-09-21 14:18:51,955 INFO  org.apache.flink.runtime.clusterframework.standalone.StandaloneResourceManager  - Trying to associate with JobManager leader akka.tcp://flink@localhost:6123/user/jobmanager
+
+2017-09-21 14:18:51,959 INFO  org.apache.flink.runtime.taskmanager.TaskManager
+
+
 
